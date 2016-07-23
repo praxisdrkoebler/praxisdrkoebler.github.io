@@ -60,7 +60,7 @@ nav, .navbar, .navbar-fixed, nav .nav-wrapper i {
 .navbar {
   position: absolute;
   top: 458px;
-  z-index: 5;
+  z-index: 10;
   width: 100%;
 }
 .navbar .nav-logo {
@@ -126,24 +126,16 @@ hr {
   background-color: #990066 !important;
 }
 
-.logo {
-  position: absolute;;
-  top: 30px;
-  left: 140px;
-  z-index: 5;
-}
-
-.floating-info {
+.top-info {
   position: absolute;
-  top: 30px;
-  right: 180px;
   z-index: 5;
+  padding: 30px 50px;
+  width: 100%;
 }
-
-.floating-info td {
+.sprechzeiten td {
   padding: 0 10px 0 0;
 }
-.floating-info hr {
+.sprechzeiten hr {
   margin-top: 10px;
 }
 
@@ -151,6 +143,7 @@ hr {
   position: absolute;
   background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
   background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
   background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
   background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);

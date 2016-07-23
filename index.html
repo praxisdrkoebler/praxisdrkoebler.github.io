@@ -2,10 +2,16 @@
 layout: default
 ---
 
-<a href="/" class="logo"><img src="/images/logo.png" class="responsive-img"/></a>
-<div class="floating-info">
-  {% include sprechzeiten.html %}
-  {% include termin.html %}
+<div class="row top-info">
+  <div class="col l4 m4 s12">
+    <a href="/">
+      <img src="/images/logo.png" class="responsive-img"/>
+    </a>
+  </div>
+  <div class="col l4 m4 s12 right white">
+    {% include sprechzeiten.html %}
+    {% include termin.html %}
+  </div>
 </div>
 
 <div class="slider">
