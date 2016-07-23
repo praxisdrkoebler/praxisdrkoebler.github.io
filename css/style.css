@@ -57,29 +57,42 @@ nav, .navbar, .navbar-fixed, nav .nav-wrapper i {
   height: 42px;
   line-height: 42px;
 }
+.navbar {
+  position: absolute;
+  top: 458px;
+  z-index: 5;
+  width: 100%;
+}
+.navbar .nav-logo {
+  opacity: 0;
+}
+.navbar.navbar-fixed .nav-logo {
+  opacity: 1;
+}
 
 nav, nav a {
   text-transform: uppercase;
 }
 
-.navbar-home {
-  position: relative;
-  top: -42px;
-  z-index: 10;
-}
-
 .nav-logo {
   max-width: 290px;
   vertical-align: middle;
+  transition: opacity 0.5s ease;
 }
 
 .dropdown-content li {
   min-height: 0;
   line-height: inherit;
 }
+.dropdown-content li:hover {
+  background-color: rgba(153, 0, 102, 0.7);
+}
 .dropdown-content li>a {
   font-size: inherit;
   padding: 10px 16px;
+}
+.dropdown-content li:hover>a {
+  color: white;
 }
 
 hr {
