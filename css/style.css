@@ -135,7 +135,8 @@ hr {
 .sprechzeiten td {
   padding: 0 10px 0 0;
 }
-.sprechzeiten hr {
+.sprechzeiten hr,
+.termin hr {
   margin-top: 10px;
 }
 
