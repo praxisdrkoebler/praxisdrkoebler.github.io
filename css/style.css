@@ -163,3 +163,15 @@ hr {
   border-right: 50px solid transparent;
   border-top: 25px solid white;
 }
+
+img.praxis {
+  margin-bottom: 10px;
+}
+
+.resume.bordered {
+  font-size: smaller;
+}
+.resume.bordered tr td:first-of-type {
+  white-space: nowrap;
+  vertical-align: text-top;
+}
