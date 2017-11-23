@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Avenir_Next_Light';
+  src: url('/fonts/Avenir_Next_Light.eot');
+  src: url('/fonts/Avenir_Next_Light.eot') format('eot'),
+  url('/fonts/Avenir_Next_Light.woff') format('woff'),
+  url('/fonts/Avenir_Next_Light.ttf') format('truetype'),
+  url('/fonts/Avenir_Next_Light.svg') format('svg');
+}
+
 html {
-  font-family: 'Muli', 'Roboto', sans-serif;
+  font-family: 'Avenir_Next_Light', 'Muli', 'Roboto', sans-serif;
   font-weight: 300;
   color: #333;
 }
@@ -58,14 +67,14 @@ strong {
   text-transform: uppercase;
 }
 
-nav, .navbar, .navbar-fixed, nav .nav-wrapper i {
+nav, .navbar, .navbar-fixed, nav .nav-wrapper i,
+a.button-collapse {
   height: 42px;
-  line-height: 42px;
+  line-height: 42px !important;
 }
 .navbar {
   position: absolute;
   top: 256px;
-  z-index: 10;
   width: 100%;
 }
 .navbar.index {
@@ -81,11 +90,25 @@ nav, .navbar, .navbar-fixed, nav .nav-wrapper i {
 nav, nav a {
   text-transform: uppercase;
 }
+nav ul li.active {
+  background-color: white;
+}
+nav ul li.active a {
+  color: #990066;
+}
+nav ul a {
+  font-size: 1.1rem;
+}
 
 .nav-logo {
   max-width: 290px;
   vertical-align: middle;
   transition: opacity 0.5s ease;
+}
+@media screen and (min-width: 1024px) and (max-width: 1160px) {
+  .nav-logo {
+    max-width: 180px;
+  }
 }
 
 .dropdown-content li {
@@ -134,9 +157,17 @@ hr {
   background-color: #990066 !important;
 }
 
+.slider {
+  z-index: -1;
+  margin-bottom: 1rem;
+}
+
+.container.section {
+  padding-top: inherit;
+}
+
 .top-info {
   position: absolute;
-  z-index: 5;
   padding: 30px 50px;
   width: 100%;
 }
@@ -184,16 +215,27 @@ img.praxis {
   vertical-align: text-top;
 }
 
+.collection .collection-item.avatar {
+  min-height: 105px;
+  padding-left: 115px;
+}
+.collection .collection-item.avatar:not(.circle-clipper)>.circle, .collection .collection-item.avatar :not(.circle-clipper)>.circle {
+  width: 84px;
+  height: 84px;
+}
+
 .collapsible-header .material-icons {
   margin-right: 0;
   position: relative;
   top: 5px;
+  transition: 0.3s;
 }
 .collapsible-header.active .material-icons {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
+  transition: 0.3s;
 }
 
 .oralchirurgie h6 {
