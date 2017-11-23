@@ -175,3 +175,15 @@ img.praxis {
   white-space: nowrap;
   vertical-align: text-top;
 }
+
+.collapsible-header .material-icons {
+  margin-right: 0;
+  position: relative;
+  top: 5px;
+}
+.collapsible-header.active .material-icons {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
