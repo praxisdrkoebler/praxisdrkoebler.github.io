@@ -64,9 +64,12 @@ nav, .navbar, .navbar-fixed, nav .nav-wrapper i {
 }
 .navbar {
   position: absolute;
-  top: 458px;
+  top: 256px;
   z-index: 10;
   width: 100%;
+}
+.navbar.index {
+  top: 458px;
 }
 .navbar .nav-logo {
   opacity: 0;

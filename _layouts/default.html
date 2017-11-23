@@ -12,23 +12,11 @@
 </head>
 
 <body>
-  <div class="navbar">
-    {% include navbar.html %}
-  </div>
+  {% include navbar.html %}
 
   <main>{{ content }}</main>
 
-  <footer class="page-footer orchid">
-    <div class="container">
-      <a class="headline grey-text text-lighten-4 right" href="{{ site.baseurl }}/impressum.html">Impressum</a>
-      <p class="grey-text text-lighten-4">
-        {{ site.name }}<br/>
-        {{ site.description }}<br/>
-        Beinestraße 1, 64846 Groß-Zimmern<br/>
-        Tel. 06071 - 44246, E-Mail: <a href="info@praxisdrkoebler.de" class="grey-text text-lighten-4">info@praxisdrkoebler.de</a>
-      </p>
-    </div>
-  </footer>
+  {% include footer.html %}
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>

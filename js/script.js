@@ -1,3 +1,5 @@
+var navOffset = 256;
+
 $(document).ready(function () {
     $('.dropdown-button').dropdown({
         hover: true,
@@ -12,13 +14,16 @@ $(document).ready(function () {
         height: 500
     });
 
+    if ($('.navbar.index').length) {
+      navOffset = 458;
+    }
     $(window).scroll(handleScroll);
 });
 
 var handleScroll = function() {
-    if ((window.scrollY || window.pageYOffset) > 500) {
+    if ((window.scrollY || window.pageYOffset) >= navOffset) {
         $('.navbar').addClass('navbar-fixed').css({top: '0px'});
     } else {
-        $('.navbar').removeClass('navbar-fixed').css({top: '458px'});
+        $('.navbar').removeClass('navbar-fixed').css({top: navOffset + 'px'});
     }
 };
