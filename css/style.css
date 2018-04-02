@@ -21,6 +21,7 @@ body {
 
 main {
   flex: 1 0 auto;
+  margin-bottom: -6px;
 }
 
 .orchid {
@@ -29,20 +30,8 @@ main {
 .orchid-transparent {
   background-color: rgba(153, 0, 102, 0.7);
 }
-.yello {
-  background-color: #fdb813 !important;
-}
-.sea-green {
-  background-color: #99d3b7 !important;
-}
 .orchid-text {
   color: #990066 !important;
-}
-.yello-text {
-  color: #fdb813 !important;
-}
-.sea-green-text {
-  color: #99d3b7 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,53 +40,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-h4 {
-  margin: 40px 0;
-  text-align: center;
-}
-
-a,
-.dropdown-content li>a,
-.dropdown-content li>span {
+a {
   color: #990066;
 }
 
 strong {
   color: #990066;
   text-transform: uppercase;
-}
-
-nav, .navbar, .navbar-fixed, nav .nav-wrapper i,
-a.button-collapse {
-  height: 42px;
-  line-height: 42px !important;
-}
-.navbar {
-  position: absolute;
-  top: 256px;
-  width: 100%;
-}
-.navbar.index {
-  top: 458px;
-}
-.navbar .nav-logo {
-  opacity: 0;
-}
-.navbar.navbar-fixed .nav-logo {
-  opacity: 1;
-}
-
-nav, nav a {
-  text-transform: uppercase;
-}
-nav ul li.active {
-  background-color: white;
-}
-nav ul li.active a {
-  color: #990066;
-}
-nav ul a {
-  font-size: 1.1rem;
 }
 
 .nav-logo {
@@ -111,24 +60,9 @@ nav ul a {
   }
 }
 
-.dropdown-content li {
-  min-height: 0;
-  line-height: inherit;
-}
-.dropdown-content li:hover {
-  background-color: rgba(153, 0, 102, 0.7);
-}
-.dropdown-content li>a {
-  font-size: inherit;
-  padding: 10px 16px;
-}
-.dropdown-content li:hover>a {
-  color: white;
-}
-
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   border: 0;
   height: 1px;
   background-color: #d699c2;
@@ -143,106 +77,48 @@ hr {
   font-size: smaller;
 }
 
-.w100 {
-  width: 100%;
-}
-
-.header-bg {
-  width: 100%;
-  background: url('/images/background.jpg') no-repeat;
-	background-size:cover;
-}
-
-.btn:hover {
-  background-color: #990066 !important;
-}
-
-.slider {
-  z-index: -1;
-  margin-bottom: 1rem;
-}
-
-.container.section {
-  padding-top: inherit;
-}
-
 .top-info {
-  position: absolute;
-  padding: 30px 50px;
-  width: 100%;
+  padding: 8px
 }
 .sprechzeiten td {
-  padding: 0 10px 0 0;
+  padding: 0 8px 0 0;
 }
 .sprechzeiten hr,
 .termin hr {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .map-shadow {
   position: absolute;
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
   background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   width: 100%;
-  height: 10px;
+  height: 8px;
 }
 
 .dreieck {
   position: absolute;
   z-index: 2;
-  left: calc(50% - 50px);
+  left: calc(50% - 48px);
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 25px solid white;
+  border-left: 48px solid transparent;
+  border-right: 48px solid transparent;
+  border-top: 32px solid white;
 }
 
-img.praxis {
-  margin-bottom: 10px;
-}
-
-.resume.bordered {
-  font-size: smaller;
-}
-.resume.bordered tr td:first-of-type {
-  white-space: nowrap;
-  vertical-align: text-top;
-}
-
-.collection .collection-item.avatar {
-  min-height: 105px;
-  padding-left: 115px;
-}
-.collection .collection-item.avatar:not(.circle-clipper)>.circle, .collection .collection-item.avatar :not(.circle-clipper)>.circle {
-  width: 84px;
-  height: 84px;
-}
-
-.collapsible-header .material-icons {
-  margin-right: 0;
+.construction_head {
   position: relative;
-  top: 5px;
-  transition: 0.3s;
-}
-.collapsible-header.active .material-icons {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  transition: 0.3s;
-}
-
-.oralchirurgie h6 {
-  color: #fdb813;
+    text-align: center;
+    width: 50%;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.6);
+    padding: 8px;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
-.zahnheilkunde h6,
-.zahnheilkunde a {
-  color: #99d3b7;
+.parallax-container {
+  height: 400px;
 }
