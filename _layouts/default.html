@@ -2,9 +2,8 @@
 <html>
 <head>
   {% include meta.html %}
-  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href='//fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/material-icons.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/materialize.min.css">
   <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/style.css"/>
   <link href="{{ site.baseurl }}/images/smiley.png" rel="shortcut icon"/>
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -17,8 +16,8 @@
 
   {% include footer.html %}
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/materialize.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/js/script.js"></script>
   {% include analytics.html %}
 </body>
