@@ -1,9 +1,23 @@
-<div class="navbar">
+<div class="navbar-fixed">
   <nav class="orchid">
     <div class="nav-wrapper container">
       <a href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/images/logo_sticky.png" class="nav-logo" alt="{{ site.name }}"/>
       </a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/">Startseite</a></li>
+        <li><a href="/ueber-mich.html">Über mich</a></li>
+        <li><a href="/patienten-info.html">Patienten-Info</a></li>
+      </ul>
     </div>
   </nav>
+
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="/">Startseite</a></li>
+    <li><a href="/ueber-mich.html">Über mich</a></li>
+    <li><a href="/patienten-info.html">Patienten-Info</a></li>
+    <li><a href="/datenschutz.html">Datenschutz</a></li>
+    <li><a href="/impressum.html">Impressum</a></li>
+  </ul>
 </div>

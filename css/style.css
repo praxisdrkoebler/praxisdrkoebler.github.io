@@ -49,6 +49,7 @@ body {
 main {
   flex: 1 0 auto;
   margin-bottom: -6px;
+  position: relative;
 }
 
 .orchid {
@@ -76,23 +77,32 @@ strong {
   text-transform: uppercase;
 }
 
+nav ul a {
+  text-transform: uppercase;
+}
+
 .nav-logo {
   max-width: 290px;
   vertical-align: middle;
   transition: opacity 0.5s ease;
 }
-@media screen and (min-width: 1024px) and (max-width: 1160px) {
-  .nav-logo {
-    max-width: 180px;
-  }
+
+.sidenav-overlay {
+  z-index: 996;
 }
 
 hr {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border: 0;
   height: 1px;
   background-color: #d699c2;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+  }
 }
 
 .headline {
@@ -113,6 +123,7 @@ hr {
 .sprechzeiten hr,
 .termin hr {
   margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .map-shadow {
@@ -133,19 +144,45 @@ hr {
   border-top: 32px solid white;
 }
 
-.construction_head {
-  position: relative;
-    text-align: center;
-    width: 50%;
-    margin-top: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(255,255,255,0.6);
-    padding: 8px;
-    font-size: 2rem;
-    font-weight: 700;
+.floating_info {
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: rgba(255,255,255,0.75);
+  padding: 8px;
 }
 
-.parallax-container {
-  height: 400px;
+@media only screen and (min-width: 601px) {
+  .floating_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    margin-top: 24px;
+  }
+}
+
+i.material-icons {
+  transition: 300ms;
+}
+
+.collapsible li.active .collapsible-header .material-icons {
+  transform: rotate(90deg);
+}
+
+.collapsible-header {
+  text-transform: uppercase;
+  color: #990066;
+}
+
+.collection {
+  border: none;
+}
+
+.collection .collection-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.resume td {
+  vertical-align: top;
 }

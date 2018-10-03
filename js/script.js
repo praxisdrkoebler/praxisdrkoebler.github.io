@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems);
-  });
+  M.Sidenav.init(document.querySelectorAll('.sidenav'));
+  M.Parallax.init(document.querySelectorAll('.parallax'));
+  M.Collapsible.init(document.querySelectorAll('.collapsible'), {accordion: false});
+});
