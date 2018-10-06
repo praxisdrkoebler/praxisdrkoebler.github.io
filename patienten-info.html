@@ -17,6 +17,14 @@ heroimg: cko3.jpg
     <div class="col s12 m6">
       <ul class="collapsible">
         <li>
+          <div class="collapsible-header"><i class="material-icons">keyboard_arrow_right</i>Versichertenkarte</div>
+          <div class="collapsible-body">
+            <p>Bitte denken Sie bei einem Termin in unserer Praxis unbedingt an Ihre Versichertenkarte Ihrer Krankenkasse und legen Sie uns diese unaufgefordert vor.</p>
+            <p>Sollten Sie Ihre Karte vergessen haben, so sind wir berechtigt, € 50 in Bar oder ein geeignetes Ausweisdokument als Pfand einzubehalten, bis Sie uns Ihre Versichertenkarte vorgelegt haben. Andernfalls sind wir nicht verpflichtet, eine Behandlung durchzuführen.</p>
+            <p>Möchten Sie dennoch von uns behandelt werden, werden wir Ihnen die entstandenen Behandlungskosten als Privatleistung nach <a class="tooltipped" data-tooltip="Gebührenordnung für Zahnärzte">GOZ</a> in Rechnung stellen.</p>
+          </div>
+        </li>
+        <li>
           <div class="collapsible-header"><i class="material-icons">keyboard_arrow_right</i>Anamnesebogen</div>
           <div class="collapsible-body">
             <p>Wenn Sie das erste Mal zu uns kommen, füllen Sie bitte unseren Anamnesebogen vollständig aus und geben ihn unterschrieben bei uns am Empfang ab:</p>
@@ -41,4 +49,16 @@ heroimg: cko3.jpg
     </div>
 
   </div>
+
+  <div class="row">
+    <div class="col s12 m6">
+      {% include sprechzeiten.html %}
+    </div>
+    <div class="col s12 m6">
+      {% include termin.html %}
+    </div>
+  </div>
+
 </div>
+
+{% include map.html %}
