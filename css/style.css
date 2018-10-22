@@ -128,9 +128,7 @@ hr {
   font-size: smaller;
 }
 
-.sprechzeiten table tr {
-  line-height: 1.6rem;
-}
+
 .sprechzeiten td {
   padding: 0 8px 0 0;
 }
@@ -138,6 +136,10 @@ hr {
 .termin hr {
   margin-top: 8px;
   margin-bottom: 8px;
+}
+.sprechzeiten .content,
+.termin .content {
+  line-height: 2rem;
 }
 
 .map-shadow {
