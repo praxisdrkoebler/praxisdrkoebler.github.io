@@ -231,3 +231,22 @@ i.material-icons {
 .resume td {
   vertical-align: top;
 }
+
+.handwriting {
+  position: absolute;
+  top: 200px;
+  width: 48vw;
+  opacity: 0.9
+}
+@media only screen and (max-width: 400px) {
+  .handwriting {
+    top: 100px;
+    width: 60vw;
+  }
+}
+.handwriting.right {
+  right: 5vw;
+}
+.handwriting.left {
+  left: 5vw;
+}
