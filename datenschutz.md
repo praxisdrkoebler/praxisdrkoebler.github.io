@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Datenschutzerklärung
+permalink: datenschutz.html
 ---
 
 ##### Datenschutz auf einen Blick

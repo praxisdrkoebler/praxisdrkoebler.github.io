@@ -1,6 +1,7 @@
 ---
 layout: hero
 title: Patienten Informationen
+permalink: /patienten-info.html
 heroimg: cko3.jpg
 ---
 
