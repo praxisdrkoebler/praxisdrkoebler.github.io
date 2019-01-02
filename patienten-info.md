@@ -72,11 +72,14 @@ heroimg: cko3.jpg
   </div>
 
   <div class="row">
-    <div class="col s12 m6">
+    <div class="col s12 m4">
       {% include sprechzeiten.html %}
     </div>
-    <div class="col s12 m6">
+    <div class="col s12 m4">
       {% include termin.html %}
+    </div>
+    <div class="col s12 m4">
+      {% include notdienst.html %}
     </div>
   </div>
 
