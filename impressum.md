@@ -13,6 +13,8 @@ Beinestraße 1
 Telefon: 06071 - 44246  
 E-Mail: info@praxisdrkoebler.de
 
+_(Bewerbungen senden Sie bitte ausschließlich an bewerbung@praxisdrkoebler.de)_
+
 ###### Berufsbezeichnung  
 
 Zahnärztin  
