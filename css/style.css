@@ -82,6 +82,10 @@ strong {
   text-transform: uppercase;
 }
 
+small {
+  line-height: initial;
+}
+
 nav {
   transition: background-color 500ms;
 }
