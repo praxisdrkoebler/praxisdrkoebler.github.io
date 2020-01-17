@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   M.Parallax.init(document.querySelectorAll('.parallax'));
   M.Collapsible.init(document.querySelectorAll('.collapsible'));
   M.Tooltip.init(document.querySelectorAll('.tooltipped'));
+  M.Materialbox.init(document.querySelectorAll('.materialboxed'));
 });
 
 var navScrollOffset = window.outerWidth <= 400 ? 220 : window.outerWidth <= 1024 ? 420 : 530;

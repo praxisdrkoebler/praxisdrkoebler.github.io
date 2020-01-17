@@ -247,6 +247,11 @@ i.material-icons {
   vertical-align: top;
 }
 
+.certificate {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .handwriting {
   position: absolute;
   top: 200px;
