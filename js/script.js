@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   M.Collapsible.init(document.querySelectorAll('.collapsible'));
   M.Tooltip.init(document.querySelectorAll('.tooltipped'));
   M.Materialbox.init(document.querySelectorAll('.materialboxed'));
-  M.Modal.init(document.getElementById('cookieModal'), { onCloseStart: hideCookieBanner });
+  M.Modal.init(document.getElementById('privacyModal'), { onCloseStart: hidePrivacyBanner, preventScrolling: false });
 });
 
 var navScrollOffset = window.outerWidth <= 400 ? 220 : window.outerWidth <= 1024 ? 420 : 530;
@@ -38,24 +38,27 @@ function showMaps() {
   }
 }
 
+var consentGoogleMaps = "consentGoogleMaps";
+var consentPrivacyBanner = "consentPrivacyBanner";
+
 function enableMaps() {
-  sessionStorage.setItem("showGoogleMaps", "true");
+  localStorage.setItem(consentGoogleMaps, new Date().toISOString());
   showMaps();
 
 }
 
-if (sessionStorage.getItem("showGoogleMaps") === "true") {
+if (localStorage.getItem(consentGoogleMaps)) {
   showMaps();
 }
 
-function showCookieBanner() {
-  M.Modal.getInstance(document.getElementById("cookieModal")).open();
+function showPrivacyBanner() {
+  M.Modal.getInstance(document.getElementById("privacyModal")).open();
 }
 
-function hideCookieBanner() {
-  sessionStorage.setItem("cookieBanner", "1");
+function hidePrivacyBanner() {
+  localStorage.setItem(consentPrivacyBanner, new Date().toISOString());
 }
 
-if (!sessionStorage.getItem("cookieBanner")) {
-  setTimeout(showCookieBanner, 0);
+if (!localStorage.getItem(consentPrivacyBanner)) {
+  setTimeout(showPrivacyBanner, 0);
 }
