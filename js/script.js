@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   M.Collapsible.init(document.querySelectorAll('.collapsible'));
   M.Tooltip.init(document.querySelectorAll('.tooltipped'));
   M.Materialbox.init(document.querySelectorAll('.materialboxed'));
+  M.Modal.init(document.getElementById('cookieModal'), { onCloseStart: hideCookieBanner });
 });
 
 var navScrollOffset = window.outerWidth <= 400 ? 220 : window.outerWidth <= 1024 ? 420 : 530;
@@ -45,4 +46,16 @@ function enableMaps() {
 
 if (sessionStorage.getItem("showGoogleMaps") === "true") {
   showMaps();
+}
+
+function showCookieBanner() {
+  M.Modal.getInstance(document.getElementById("cookieModal")).open();
+}
+
+function hideCookieBanner() {
+  sessionStorage.setItem("cookieBanner", "1");
+}
+
+if (!sessionStorage.getItem("cookieBanner")) {
+  setTimeout(showCookieBanner, 0);
 }
