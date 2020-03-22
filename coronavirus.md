@@ -24,7 +24,7 @@ permalink: coronavirus.html
 
 ###### Hat die Praxis weiterhin geöffnet?
 
-Ja, wir haben weiterhin zu unseren gewohnten Sprechzeiten geöffnet und sind für Sie da.
+Ja, wir haben weiterhin zu unseren gewohnten Sprechzeiten geöffnet, sind für Sie da und stellen Ihre zahnmedizinische Versorgung sicher.
 
 Bitte kommen Sie wenn möglich nicht unangemeldet in die Praxis.
 Rufen Sie uns vorher an und wir klären alles mit Ihnen und geben Ihnen einen Termin, wann wir für Sie da sind.
@@ -48,12 +48,14 @@ Bitte rufen Sie uns in diesem Falle vorher an, um Einzelheiten zu besprechen.
 
 ###### Muss ich mit anderen Personen im Wartezimmer sitzen?
 
-Wir bemühen uns, Sie mit maximal 1 anderen Person im Wartezimmer Platz nehmen zu lassen.
+Wir haben unseren Praxisablauf so organisiert, dass Sie mit maximal 1 anderen Person im Wartezimmer Platz nehmen.
 Dafür haben wir für ausreichenden Sicherheitsabstand (> 2 Meter) gesorgt.
 Zusätzlich versuchen wir, die Wartezeit so gut wie möglich zu minimieren.
 
 
-###### Ich war in den letzten 3 Wochen in Österreich, Schweiz, Italien, Spanien, Frankreich, China oder der USA in Urlaub. Darf ich dennoch in die Praxis kommen?
+###### Ich war in den letzten 3 Wochen in einem Risikogebiet* im Urlaub. Darf ich dennoch in die Praxis kommen?
+
+_* = Liste aller aktuellen Riskogebiete beim Robert Koch Institut: [https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete.html](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete.html)_
 
 Bitte rufen Sie uns in diesem Falle vorher an.
 Wir besprechen das weitere Vorgehen mit Ihnen zunächst am Telefon.
