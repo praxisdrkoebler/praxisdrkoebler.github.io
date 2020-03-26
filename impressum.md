@@ -6,7 +6,7 @@ permalink: /impressum.html
 
 ##### Angaben Gemäss § 5 TMG:
 
-Praxis Dr. Catharina Köbler  
+Dr. med. dent. Catharina Köbler  
 Beinestraße 1  
 64846 Groß-Zimmern
 
