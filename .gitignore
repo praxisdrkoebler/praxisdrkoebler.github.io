@@ -7,3 +7,4 @@ Gemfile.lock
 *.iml
 .idea/
 images/cko*.png
+.jekyll-metadata
