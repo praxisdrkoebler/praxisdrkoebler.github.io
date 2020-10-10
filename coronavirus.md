@@ -5,65 +5,42 @@ permalink: coronavirus.html
 ---
 
 <p class="flow-text">
-  Vielen Dank dass Sie sich über unseren Umgang mit dem neuen Coronavirus SARS-CoV-2 in unserer Praxis informieren möchten.
-  <br/><br/>
-  Bislang hatten wir keinen Infektionsfall in der Praxis und sind gerne weiterhin für Sie da.
-  Bitte seien Sie versichert, dass wir alle notwendigen Vorsichts- und Hygienemaßnahmen ergreifen, um eine Ausbreitung des neuen Coronavirus in unserer Praxis zu vermeiden.
+  Liebe Patienten,
 </p>
 
-<p class="flow-text">
-  <strong>Kommen Sie in einem Infektions- oder Verdachtsfall auf keinen Fall ohne telefonische Voranmeldung direkt in die Praxis!</strong>
-  <span style="display: block; font-size: initial">Rufen Sie uns in diesem Falle bitte zunächst an und klären das weitere Vorgehen mit uns ab. Vielen Dank.</span>
-</p>
+vielen Dank dass Sie sich über unseren Umgang mit dem neuen Coronavirus in unserer Praxis informieren.
+
+Seit Monaten ist unser Alltag und unser Leben in Veränderung.
+Ein Virus verändert die Welt und damit den Umgang miteinander und füreinander.
+
+Wir sind seit der ersten Bekanntgabe bis zum heutigen Tag weiterhin in unserer Praxis tätig.
+Terminverlegungen oder -verschiebungen sind zum Alltag geworden und jede Frage, die mit dem neuen Virus und mit dessen Umgang zu tun hat, prägt das tägliche Arbeitsleben.
+
+Wir sind bisher ohne einen Infektionsfall gewesen!
+Täglich arbeiten wir als Team daran, dies durch die notwendigen Vorsichts- und Hygienemaßnamen zu gewährleisten und damit eine Ausbreitung zu vermeiden.
+
+Wie sage ich immer zu meinen Patienten:
+_"So lange Sie von uns keine Absage oder einen Anruf erhalten, dass wir aufgrund des Coronavirus unseren Plan ändern müssen, bleibt alles, wie vereinbart."_
+
+Wir sind für Sie da wie Sie es von uns kennen und gewohnt sind.
+Wir freuen uns über jeden Patienten der zu uns kommt und auch in diesen Zeiten uns sein Vertrauen und ein Lächeln schenkt. So, wie wir es für Sie tun.
+
+Bleiben Sie gesund! - Wir freuen uns auf Sie!
+
+Ihr Praxisteam  
+Dr. Catharina Köbler
 
 
 <hr style="margin: 40px 0"/>
 
 
-##### Antworten auf häufig gestellte Fragen
+##### Desweiteren gelten folgende Regelungen:
 
-###### Hat die Praxis weiterhin geöffnet?
-
-Ja, wir haben weiterhin zu unseren gewohnten Sprechzeiten geöffnet, sind für Sie da und stellen Ihre zahnmedizinische Versorgung sicher.
-
-Bitte kommen Sie wenn möglich nicht unangemeldet in die Praxis.
-Rufen Sie uns vorher an und wir klären alles mit Ihnen und geben Ihnen einen Termin, wann wir für Sie da sind.
-
-
-###### Ich habe einen Termin für eine zahnmedizinische Behandlung oder einen oralchirurgischen Eingriff. Wird dieser jetzt abgesagt?
-
-Wir führen derzeit alle geplanten Behandlungen und Eingriffe durch.
-Unter Einhaltung aller Sicherheits- und Hygienemaßnahmen, können wir dies nach wie vor tun.
-
-###### Ist eine zahnmedizinische Behandlung derzeit nicht viel zu gefährlich, da der empfohlende Abstand von 1,5 Metern nicht eingehalten werden kann?
-
-Als Zahnarztpraxis müssen wir grundsätzlich hohe Hygienemaßnahmen beachten.
-Diese werden von uns derzeit noch intensiviert, so dass Sie davon ausgehen können, dass wir jede mögliche Vorkehrung treffen, um eine mögliche Übertragung des Viruses zu vermeiden.
-
-
-###### Ich habe Schmerzen und mein behandelnder Zahnarzt ist nicht da oder hat geschlossen.
-
-Bitte rufen Sie uns in diesem Falle vorher an, um Einzelheiten zu besprechen.
-
-
-###### Muss ich mit anderen Personen im Wartezimmer sitzen?
-
-Wir haben unseren Praxisablauf so organisiert, dass Sie mit maximal 1 anderen Person im Wartezimmer Platz nehmen.
-Dafür haben wir für ausreichenden Sicherheitsabstand (> 2 Meter) gesorgt.
-Zusätzlich versuchen wir, die Wartezeit so gut wie möglich zu minimieren.
-
-
-###### Ich war in den letzten 3 Wochen in einem Risikogebiet* im Urlaub. Darf ich dennoch in die Praxis kommen?
-
-_* = Liste aller aktuellen Riskogebiete beim Robert Koch Institut: [https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete.html](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete.html)_
-
-Bitte rufen Sie uns in diesem Falle vorher an.
-Wir besprechen das weitere Vorgehen mit Ihnen zunächst am Telefon.
-
-
-###### Ich habe eine Frage, die hier nicht beantwortet wurde!
-
-Bitte rufen Sie uns an.
-Wir beantworten Ihnen am Telefon gerne jede Ihrer Fragen zum Umgang mit dem neuen Coronavirus in unserer Praxis!
-
-Außerdem erhalten Sie weitere Informationen zum neuen Coronavirus SARS-CoV-2 und der damit verbundenen Lungenkrankheit Covid-19 beim [Robert Koch Institut (RKI): www.rki.de/covid-19](https://www.rki.de/covid-19) und bei der [Bundeszentrale für gesundheitliche Aufklärung (BZgA): www.infektionsschutz.de](https://www.infektionsschutz.de/coronavirus.html).
+1. **Betreten Sie die Praxis nur mit einer Mund- und Nasenbedeckung!**
+1. Sollten Sie ohne einen zuvor vereinbarten Termin in die Praxis kommen, ist es möglich, dass Sie aufgrund von großem Patientenaufkommen und der damit nicht mehr einzuhaltenden Abstandsregelungen mit einer längeren Wartezeit rechnen müssen, oder gar mit einer neuen Terminvereinbarung wieder nach Hause geschickt werden. Aus diesem Grund bitten wir Sie, unbedingt vorab einen Termin telefonisch zu vereinbaren!
+1. Waschen Sie sich vor dem Herantreten an den Thresen bitte im dafür vorgesehenen Patienten-WC die Hände.  
+  (Wenn Sie reinkommen, gleich rechts)
+1. Bitte melden Sie sich danach bei uns an.
+1. Sollten sich zu viele Menschen im Praxisvorraum wie auch im Wartezimmer aufhalten, werden wir Sie bitten, vor der Tür zu warten. Wir werden Sie wieder in die Praxis bitten, sobald sich die Abstandsregelungen wieder einhalten lassen.
+1. Bitte haben Sie Ihre Versichertenkarte griffbereit. Wir werden Sie dazu auffordern, diese selbständig in das Lesegerät zu stecken. Ein direkter Kontakt mit unserem Personal wird so an dieser Stelle vermieden.
+1. Sollten Sie Grippe-ähnliche Symptome haben oder sich nicht sicher sein, ob Sie ggf. am Coronavirus erkrankt sind, betreten Sie auf keinen Fall die Praxis. Bitte nehmen Sie in diesem Fall unbedingt zuvor telefonisch Kontakt mit uns auf!
